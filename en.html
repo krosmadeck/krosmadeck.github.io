@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>KrosmaDeck English</title>
+    <link rel="stylesheet" href="TemplateData_en/style.css">
+    <link rel="shortcut icon" href="TemplateData_en/favicon.ico" />
+    <script src="TemplateData_en/UnityProgress.js"></script>
+  </head>
+  <body class="template">
+    <p class="header">KrosmaDeck</p>
+    <div class="template-wrap clear">
+        <div>Warning ! The screen can take few time to load.</div>
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="540px" width="960px"></canvas>
+      <br>
+      <div class="logo"></div>
+      <div class="fullscreen"><img src="TemplateData_en/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+      <div class="title">KrosmaDeck</div>
+    </div>
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release_en/Build Web.data",
+    codeUrl: "Release_en/Build Web.js",
+    memUrl: "Release_en/Build Web.mem",
+    
+  };
+</script>
+<script src="Release_en/UnityLoader.js"></script>
+
+  </body>
+</html>
